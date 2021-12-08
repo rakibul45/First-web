@@ -15,16 +15,17 @@ p{
     margin-bottom: 5%;
     text-align: justify;
 }
+.half-part img{
+    width: 60%;
+    margin-right: 50%;
+    
+}
 .half-part{
     width: 40%;
     float: left;
-    margin-left: 5%;
-    padding-top: 5px;
-    margin-top: 15px;
+    padding-left: 10%;
 }
-.half-part img{
-    width: 70%;
-}
+
 .link_button{
     text-decoration: none;
     padding: 10px 20px;
@@ -34,9 +35,11 @@ p{
     color: white;
     font-size: 20px;
 }
-
-
-.work{
-    background-image: linear-gradient(salmon tomato);
-    padding: 15px 50px;
+.aboutimg img{
+    margin-left: 10%;
 }
+.aboutsec{
+    width: 30%;
+    padding-top: 7%;
+}
+
