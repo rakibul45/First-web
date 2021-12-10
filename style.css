@@ -1,23 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
 body{
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 h1{
     font-size: 50px;
 }
-
 .clear {
     clear: both;
+}
+.main-menu{
+    width: 100%;
+    padding: 15px 0 25px;
+    text-align: right;
+}
+
+.menu {
+    margin-right: 25px;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 0px 16px;
+    
+}
+.menu ul li a {
+   text-decoration: none;
+   color: #111;
+   font-weight: 600;
+   font-size: 14px;
+}
+
+.header-part {
+    overflow: auto;
+    margin-top: 15px;
 }
 
 .name-color{
     font-size: 40px;
     font-weight: 600px;
-    color: tomato;
+    color: #9b59b6;
 }
 p{
-    font-size: 15px;
-    margin-bottom: 5%;
+    font-size: 18px;
+    margin-bottom: 10%;
     text-align: justify;
 }
 .half-part img{
@@ -34,8 +61,8 @@ p{
 .link_button{
     text-decoration: none;
     padding: 10px 20px;
-    background-color: tomato;
-    background-image: linear-gradient(180deg, #f06556, tomato);
+    background-color: #9b59b6;
+    background-image: linear-gradient(180deg, #9b59b6, #8e44ad);
     border-radius: 5px;
     color: white;
     font-size: 20px;
@@ -45,7 +72,7 @@ p{
 }
 .aboutsec{
     width: 30%;
-    padding-top: 7%;
+    padding-top: 2%;
 }
 .work-part{
     background-color: #F8F9FC;
@@ -55,10 +82,12 @@ p{
 }
 .work-heading{
     text-align: center;
+    font-size: 30px;
 }
 .work-name{
-    color: tomato;
+    color: #9b59b6;
 }
+
 .work-project{
     width: 100%;
 }
@@ -81,4 +110,54 @@ p{
 .item-description h3{
     text-align: center;
 }
-
+.work-inquiry-heading {
+    background-image: url("images/Group_33094_1.png");
+    width: 960px;
+    height: 200px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 15%;
+    line-height: 200px;
+}
+.work-inquiry-heading h3{
+    margin-left: 135px;
+    font-size: 35px;
+    color: white;
+    float: left;
+    margin-top: 0;
+    font-weight: 900px;
+}
+.Work_button {
+    text-decoration: none;
+    background-color: tomato;
+    background-image: linear-gradient(
+180deg, #f06556, tomato);
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    padding: 10px 16px;
+    margin-left: 265px;
+}
+.footer-header h3{
+    color: slategray;
+    font-weight: 700px;
+}
+.footer-header h1{
+    text-align: center;
+    color: springgreen;
+}
+.footer-header{
+    padding-top: 21px;
+    text-align: center;
+}
+.footer-header ul li{
+padding-left: 35px;
+margin-left: -46px;
+margin-right: 37px;
+display: inline-block;
+}
+.footer ul li img {
+    width: 50px;
+    height: 50px;
+}
